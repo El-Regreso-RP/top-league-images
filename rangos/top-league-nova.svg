@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <defs>
+      <linearGradient id="syndL" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1a1308"/><stop offset="100%" stop-color="#0a0703"/>
+      </linearGradient>
+    </defs>
+    <!-- jagged shield base -->
+    <polygon points="128,12 230,40 246,72 222,210 168,236 128,248 88,236 34,210 10,72 26,40" fill="url(#syndL)" stroke="#C19B3F" stroke-width="3"/>
+    <!-- inner gold line -->
+    <polygon points="128,30 218,55 232,80 210,200 162,220 128,232 94,220 46,200 24,80 38,55" fill="none" stroke="#8B6F2A" stroke-width="1"/>
+    <!-- 3 spike marks (pact / triad) -->
+    <g fill="#C19B3F" opacity="0.85">
+      <polygon points="128,52 134,86 128,98 122,86"/>
+      <polygon points="60,108 96,124 90,140 56,128" transform="rotate(0 128 128)"/>
+      <polygon points="196,108 200,128 166,140 160,124"/>
+    </g>
+    <!-- bottom V -->
+    <polygon points="128,200 110,170 128,180 146,170" fill="#C19B3F" opacity="0.85"/>
+    <!-- center sigil: interlocked S -->
+    <circle cx="128" cy="134" r="30" fill="#0a0703" stroke="#C19B3F" stroke-width="2"/>
+    <path d="M 116,118 Q 142,118 142,130 Q 142,140 128,140 Q 114,140 114,150 Q 114,162 140,162" fill="none" stroke="#C19B3F" stroke-width="3" stroke-linecap="round"/>
+    <!-- gold ring around sigil -->
+    <circle cx="128" cy="134" r="38" fill="none" stroke="#C19B3F" stroke-width="1.5" stroke-dasharray="2 3"/>
+    <g><text x="128" y="230" font-family="Audiowide, sans-serif" font-size="14" letter-spacing="2" fill="#C19B3F" text-anchor="middle" opacity="0.85">IV</text></g>
+  </svg>

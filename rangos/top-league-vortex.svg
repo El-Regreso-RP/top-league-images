@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <defs>
+      <linearGradient id="vortexL" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0a3a2c"/><stop offset="100%" stop-color="#062019"/>
+      </linearGradient>
+    </defs>
+    <!-- outer hex base -->
+    <polygon points="128,8 232,68 232,188 128,248 24,188 24,68" fill="url(#vortexL)" stroke="#3ED598" stroke-width="3"/>
+    <!-- rotating hex layers -->
+    <g fill="none" stroke="#3ED598" stroke-width="2" opacity="0.85">
+      <polygon points="128,30 212,80 212,176 128,226 44,176 44,80" transform="rotate(10 128 128)"/>
+    </g>
+    <g fill="none" stroke="#5fffaf" stroke-width="1.4" opacity="0.7">
+      <polygon points="128,52 196,90 196,166 128,204 60,166 60,90" transform="rotate(20 128 128)"/>
+    </g>
+    <g fill="none" stroke="#8effc6" stroke-width="1" opacity="0.6">
+      <polygon points="128,70 184,100 184,156 128,186 72,156 72,100" transform="rotate(30 128 128)"/>
+    </g>
+    <!-- vortex chevrons in corners -->
+    <g fill="#3ED598" opacity="0.6">
+      <polygon points="40,40 64,60 50,72 30,52"/>
+      <polygon points="216,40 226,52 202,72 192,60"/>
+      <polygon points="40,216 50,184 64,196 54,228"/>
+      <polygon points="216,216 226,204 202,184 192,196"/>
+    </g>
+    <!-- spiral core -->
+    <path d="M 128,84 a44,44 0 1,1 -30,76 a30,30 0 1,1 16,-56 a16,16 0 1,1 -8,30" fill="none" stroke="#5fffaf" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="128" cy="128" r="6" fill="#fff"/>
+    <g><text x="128" y="234" font-family="Audiowide, sans-serif" font-size="14" letter-spacing="2" fill="#5fffaf" text-anchor="middle" opacity="0.85">III</text></g>
+  </svg>

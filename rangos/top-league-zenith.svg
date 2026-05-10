@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <defs>
+      <linearGradient id="zenithGold" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stop-color="#7a4f0a"/>
+        <stop offset="55%" stop-color="#FFC93C"/>
+        <stop offset="100%" stop-color="#FFE388"/>
+      </linearGradient>
+      <radialGradient id="zenithApex" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff"/>
+        <stop offset="40%" stop-color="#FFE388"/>
+        <stop offset="100%" stop-color="#FFC93C" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- diamond/lozenge frame, vertical orientation hints upward motion -->
+    <polygon points="128,8 232,128 128,248 24,128" fill="#0a0805" stroke="#FFC93C" stroke-width="3"/>
+    <polygon points="128,28 212,128 128,228 44,128" fill="none" stroke="#7a4f0a" stroke-width="1.5"/>
+
+    <!-- ascending chevrons climb from base toward apex -->
+    <g fill="url(#zenithGold)">
+      <!-- bottom widest chevron -->
+      <polygon points="128,210 86,232 96,224 128,202 160,224 170,232"/>
+      <polygon points="128,180 96,198 104,192 128,174 152,192 160,198"/>
+      <polygon points="128,150 104,166 110,162 128,148 146,162 152,166"/>
+      <polygon points="128,122 112,134 116,131 128,122 140,131 144,134"/>
+    </g>
+    <!-- vertical guide line -->
+    <line x1="128" y1="230" x2="128" y2="108" stroke="#7a4f0a" stroke-width="1" stroke-dasharray="2 4" opacity="0.7"/>
+
+    <!-- apex glow -->
+    <circle cx="128" cy="86" r="40" fill="url(#zenithApex)"/>
+    <!-- 8-point starburst at the zenith -->
+    <g transform="translate(128 86)">
+      <polygon points="0,-44 8,-8 44,0 8,8 0,44 -8,8 -44,0 -8,-8" fill="#FFC93C"/>
+      <polygon points="0,-30 6,-6 30,0 6,6 0,30 -6,6 -30,0 -6,-6" fill="#FFE388" transform="rotate(45)"/>
+      <circle r="7" fill="#fff"/>
+    </g>
+    <!-- side rays -->
+    <g stroke="#FFC93C" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
+      <line x1="60" y1="86" x2="78" y2="86"/>
+      <line x1="178" y1="86" x2="196" y2="86"/>
+      <line x1="72" y1="60" x2="86" y2="68"/>
+      <line x1="170" y1="68" x2="184" y2="60"/>
+      <line x1="72" y1="112" x2="86" y2="104"/>
+      <line x1="170" y1="104" x2="184" y2="112"/>
+    </g>
+    <g><text x="128" y="250" font-family="Audiowide, sans-serif" font-size="14" letter-spacing="2" fill="#FFC93C" text-anchor="middle" opacity="0.85">VI</text></g>
+  </svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <defs>
+      <radialGradient id="quasarR"><stop offset="0%" stop-color="#fff"/><stop offset="40%" stop-color="#FF3E80"/><stop offset="100%" stop-color="#3a0a1c" stop-opacity="0"/></radialGradient>
+    </defs>
+    <circle cx="128" cy="128" r="120" fill="url(#quasarR)" opacity="0.45"/>
+    <polygon points="128,8 135,128 121,128" fill="#FF3E80" opacity="1" transform="rotate(0 128 128)"/><polygon points="128,36 133,128 123,128" fill="#ff75a8" opacity="0.85" transform="rotate(30 128 128)"/><polygon points="128,8 135,128 121,128" fill="#FF3E80" opacity="1" transform="rotate(60 128 128)"/><polygon points="128,36 133,128 123,128" fill="#ff75a8" opacity="0.85" transform="rotate(90 128 128)"/><polygon points="128,8 135,128 121,128" fill="#FF3E80" opacity="1" transform="rotate(120 128 128)"/><polygon points="128,36 133,128 123,128" fill="#ff75a8" opacity="0.85" transform="rotate(150 128 128)"/><polygon points="128,8 135,128 121,128" fill="#FF3E80" opacity="1" transform="rotate(180 128 128)"/><polygon points="128,36 133,128 123,128" fill="#ff75a8" opacity="0.85" transform="rotate(210 128 128)"/><polygon points="128,8 135,128 121,128" fill="#FF3E80" opacity="1" transform="rotate(240 128 128)"/><polygon points="128,36 133,128 123,128" fill="#ff75a8" opacity="0.85" transform="rotate(270 128 128)"/><polygon points="128,8 135,128 121,128" fill="#FF3E80" opacity="1" transform="rotate(300 128 128)"/><polygon points="128,36 133,128 123,128" fill="#ff75a8" opacity="0.85" transform="rotate(330 128 128)"/>
+    <!-- inner ring -->
+    <circle cx="128" cy="128" r="56" fill="#180510"/>
+    <circle cx="128" cy="128" r="56" fill="none" stroke="#FF3E80" stroke-width="2"/>
+    <circle cx="128" cy="128" r="48" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="2 3" opacity="0.6"/>
+    <!-- pulsar core: bright dot + cross beams -->
+    <circle cx="128" cy="128" r="22" fill="#FF3E80"/>
+    <circle cx="128" cy="128" r="10" fill="#fff"/>
+    <rect x="126" y="96" width="4" height="64" fill="#fff" opacity="0.7"/>
+    <rect x="96" y="126" width="64" height="4" fill="#fff" opacity="0.7"/>
+    <g><text x="128" y="234" font-family="Audiowide, sans-serif" font-size="14" letter-spacing="2" fill="#ff75a8" text-anchor="middle" opacity="0.85">V</text></g>
+  </svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <defs>
+      <radialGradient id="topGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+        <stop offset="50%" stop-color="#E53935" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="#3a0606" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="topShield" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ff5f5f"/>
+        <stop offset="100%" stop-color="#a01a1a"/>
+      </linearGradient>
+    </defs>
+    <!-- glow -->
+    <circle cx="128" cy="128" r="124" fill="url(#topGlow)"/>
+    <!-- laurels left -->
+    <g fill="#ffd96a" opacity="0.95">
+      <path d="M28,128 Q42,80 78,52 L82,62 Q52,86 40,128 Z"/>
+      <path d="M28,128 Q42,176 78,204 L82,194 Q52,170 40,128 Z"/>
+      <ellipse cx="44" cy="92" rx="6" ry="10" transform="rotate(-30 44 92)"/>
+      <ellipse cx="36" cy="116" rx="6" ry="10" transform="rotate(-10 36 116)"/>
+      <ellipse cx="36" cy="140" rx="6" ry="10" transform="rotate(10 36 140)"/>
+      <ellipse cx="44" cy="164" rx="6" ry="10" transform="rotate(30 44 164)"/>
+      <ellipse cx="60" cy="74" rx="6" ry="10" transform="rotate(-50 60 74)"/>
+      <ellipse cx="60" cy="182" rx="6" ry="10" transform="rotate(50 60 182)"/>
+    </g>
+    <!-- laurels right -->
+    <g fill="#ffd96a" opacity="0.95" transform="translate(256 0) scale(-1 1)">
+      <path d="M28,128 Q42,80 78,52 L82,62 Q52,86 40,128 Z"/>
+      <path d="M28,128 Q42,176 78,204 L82,194 Q52,170 40,128 Z"/>
+      <ellipse cx="44" cy="92" rx="6" ry="10" transform="rotate(-30 44 92)"/>
+      <ellipse cx="36" cy="116" rx="6" ry="10" transform="rotate(-10 36 116)"/>
+      <ellipse cx="36" cy="140" rx="6" ry="10" transform="rotate(10 36 140)"/>
+      <ellipse cx="44" cy="164" rx="6" ry="10" transform="rotate(30 44 164)"/>
+      <ellipse cx="60" cy="74" rx="6" ry="10" transform="rotate(-50 60 74)"/>
+      <ellipse cx="60" cy="182" rx="6" ry="10" transform="rotate(50 60 182)"/>
+    </g>
+    <!-- crown -->
+    <g fill="#ffd96a" stroke="#a87a16" stroke-width="1">
+      <polygon points="78,40 92,18 106,40 116,14 128,40 140,14 150,40 164,18 178,40 178,52 78,52"/>
+      <rect x="78" y="50" width="100" height="6"/>
+      <circle cx="92" cy="22" r="3" fill="#fff"/>
+      <circle cx="128" cy="18" r="4" fill="#E53935"/>
+      <circle cx="164" cy="22" r="3" fill="#fff"/>
+    </g>
+    <!-- shield -->
+    <path d="M64,68 L192,68 L192,150 Q192,200 128,232 Q64,200 64,150 Z" fill="url(#topShield)" stroke="#fff" stroke-width="3"/>
+    <!-- white inner band -->
+    <path d="M76,80 L180,80 L180,148 Q180,192 128,218 Q76,192 76,148 Z" fill="#fff" opacity="0.08"/>
+    <!-- diagonal stripe -->
+    <polygon points="64,90 192,90 192,108 64,108" fill="#fff" opacity="0.12"/>
+    <!-- shield interior intentionally left empty -->
+    <!-- ribbon TOP LEAGUE -->
+    <g>
+      <rect x="48" y="200" width="160" height="22" fill="#0a0a0a" stroke="#ffd96a" stroke-width="1.5"/>
+      <text x="128" y="216" font-family="Audiowide, sans-serif" font-size="11" letter-spacing="3" fill="#ffd96a" text-anchor="middle">TOP LEAGUE</text>
+    </g>
+    <g><text x="128" y="245" font-family="Audiowide, sans-serif" font-size="14" letter-spacing="2" fill="#ffd96a" text-anchor="middle" opacity="0.85">VIII</text></g>
+  </svg>

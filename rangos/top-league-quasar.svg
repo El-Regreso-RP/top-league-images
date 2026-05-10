@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <defs>
+      <radialGradient id="astralR"><stop offset="0%" stop-color="#3a1d5c"/><stop offset="100%" stop-color="#0c0518"/></radialGradient>
+    </defs>
+    <circle cx="128" cy="128" r="118" fill="url(#astralR)"/>
+    <circle cx="128" cy="128" r="118" fill="none" stroke="#A663F2" stroke-width="2"/>
+    <circle cx="128" cy="128" r="108" fill="none" stroke="#A663F2" stroke-width="1" stroke-dasharray="3 5" opacity="0.6"/>
+    <!-- orbital ellipses -->
+    <g fill="none" stroke="#C190FF" stroke-width="2" opacity="0.85">
+      <ellipse cx="128" cy="128" rx="100" ry="32" transform="rotate(-22 128 128)"/>
+      <ellipse cx="128" cy="128" rx="100" ry="32" transform="rotate(22 128 128)"/>
+      <ellipse cx="128" cy="128" rx="100" ry="55" transform="rotate(0 128 128)" stroke-dasharray="2 4"/>
+    </g>
+    <!-- moving planets -->
+    <circle cx="40" cy="92" r="4" fill="#fff"/>
+    <circle cx="216" cy="172" r="5" fill="#A663F2"/>
+    <circle cx="80" cy="200" r="3" fill="#C190FF"/>
+    <circle cx="190" cy="58" r="2.5" fill="#fff"/>
+    <!-- center planet -->
+    <circle cx="128" cy="128" r="42" fill="#160628"/>
+    <circle cx="128" cy="128" r="42" fill="none" stroke="#C190FF" stroke-width="1.5"/>
+    <!-- inner planet detail -->
+    <ellipse cx="128" cy="128" rx="30" ry="6" fill="#C190FF" opacity="0.5"/>
+    <circle cx="118" cy="118" r="4" fill="#A663F2"/>
+    <circle cx="138" cy="134" r="3" fill="#7E57C2"/>
+    <g><text x="128" y="234" font-family="Audiowide, sans-serif" font-size="14" letter-spacing="2" fill="#C190FF" text-anchor="middle" opacity="0.85">II</text></g>
+  </svg>
